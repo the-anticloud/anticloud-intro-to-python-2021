@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b06193f6-2343-5bfb-b0ed-872bfe2d3e4a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:47:50Z",
+    "component": {
+      "type": "application",
+      "name": "INTRO_TO_PYTHON_2021",
+      "version": "a08dd274ca5e",
+      "bom-ref": "pkg:generic/anticloud/INTRO_TO_PYTHON_2021@a08dd274ca5e",
+      "purl": "pkg:generic/anticloud/INTRO_TO_PYTHON_2021@a08dd274ca5e",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a08dd274ca5ed59b0133c6304ecffe180d1177cc"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-intro-to-python-2021.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
