@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "index.html",
+    "distDir": "."
+  },
+  "package": {
+    "productName": "INTRO_TO_PYTHON_2021",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "gg.anticloud.intro_to_python_2021",
+      "category": "DeveloperTool",
+      "shortDescription": "INTRO_TO_PYTHON_2021 \u2014 Anticloud Sovereign AI Infrastructure",
+      "longDescription": "Installer for INTRO_TO_PYTHON_2021, part of the Anticloud sovereign AI infrastructure stack"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "INTRO_TO_PYTHON_2021 Installer",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}
